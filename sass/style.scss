@@ -73,7 +73,6 @@ html {
 }
 
 .intro {
-  background-image: url(../IMAGENES/INDEX5.jpg); /*IMAGEN DE INICIO PERS RIENDO*/
   background-position: center;
   display: flex;
   flex-direction: column; /*SIRVE PARA COLOCAR UNO DEBAJO DE OTRA EJEMPLO TITULO, PARRAFO, BOTON ETC.*/
@@ -111,6 +110,14 @@ html {
     color: rgb(0, 0, 0);
     text-decoration: none;
   }
+}
+.introImg {
+  background-image: url(../IMAGENES/INDEX5.jpg); /*IMAGEN DE INICIO PERS RIENDO*/
+  background-position: center;
+  display: flex;
+  flex-direction: column; /*SIRVE PARA COLOCAR UNO DEBAJO DE OTRA EJEMPLO TITULO, PARRAFO, BOTON ETC.*/
+  align-items: center;
+  background: cover;
 }
 
 .animate__animated.animate__bounce {
@@ -374,7 +381,7 @@ html {
   }
 
   .introImg {
-    background-image: url(/IMAGENES/INDEX5.jpg); /*IMAGEN DE INICIO PERS RIENDO*/
+    background-image: url(../IMAGENES/INDEX5.jpg); /*IMAGEN DE INICIO PERS RIENDO*/
     background-position: center;
     display: flex;
     flex-direction: column; /*SIRVE PARA COLOCAR UNO DEBAJO DE OTRA EJEMPLO TITULO, PARRAFO, BOTON ETC.*/
